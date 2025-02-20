@@ -21,7 +21,7 @@ export default function QrCodeScanner() {
   return (
     <div className={s.container}>
       <QrReader
-        constraints={{ facingMode: "user" }}
+        constraints={{ facingMode: "environment" }}
         videoContainerStyle={{ willReadFrequently: true }}
         scanDelay={1000}
         onResult={scanHandler}
