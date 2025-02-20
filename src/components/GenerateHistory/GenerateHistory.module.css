@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.qr {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
