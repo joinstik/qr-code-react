@@ -7,10 +7,10 @@ export default function Navigation() {
       className={s.container}
       style={{ display: "flex", flexDirection: "column" }}
     >
-      <Link to="/generate">Генерировать QR код</Link>
-      <Link to="/scan">Сканировать QR код</Link>
-      <Link to="/generateHistory">История генерирования</Link>
-      <Link to="/scanHistory">История сканирования</Link>
+      <Link to="/qr-code/generate">Генерировать QR код</Link>
+      <Link to="/qr-code/scan">Сканировать QR код</Link>
+      <Link to="/qr-code/generateHistory">История генерирования</Link>
+      <Link to="/qr-code/scanHistory">История сканирования</Link>
     </nav>
   );
 }
